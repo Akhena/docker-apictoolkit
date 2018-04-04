@@ -1,4 +1,4 @@
-FROM node:8.9.4
+FROM node:9.10.1
 
-RUN npm install -g apiconnect
+RUN npm install -g apiconnect --unsafe
 RUN apic --accept-license --disable-analytics
